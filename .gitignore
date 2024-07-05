@@ -1,6 +1,4 @@
-echo ".terraform/" >> .gitignore
-echo "terraform.tfstate" >> .gitignore
-echo "terraform.tfstate.backup" >> .gitignore
-echo "*.tfstate*" >> .gitignore
-echo "*.tfstate.*" >> .gitignore
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
 
