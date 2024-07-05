@@ -9,7 +9,7 @@ resource "aws_ecs_task_definition" "HelloTD" {
   container_definitions = jsonencode([
     {
       name      = "main-container"
-      image     = "someshrao007/strapi:latest"
+      image     = "ksaipavan13/my-strapi-app:latest"
       essential = true
       portMappings = [
         {
